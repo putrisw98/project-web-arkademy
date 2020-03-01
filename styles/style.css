@@ -6,10 +6,12 @@ body{
 
 #bg{
 	position: absolute;
-	width: 1366px;
-	height: 654px;
+	width: 100%;
+	height: 100%;
 	left: 0px;
 	top: 0px;
+	background-attachment: fixed;
+    background-size: cover;
 	background: rgba(42, 38, 61, 0.82);
 }
 
@@ -35,16 +37,14 @@ h1.reservation{
 	bottom: 578px;
 }
 h1{	
-	position: absolute;
 	left: 476px;
 	right: 476px;
 	top: 200px;
-	bottom: 329px;
 	font-family:'Pacifico';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 48px;
-	line-height: 84px;
+	line-height: 60px;
 	text-align: center;
 	color: #FCB371;
 }
@@ -70,7 +70,7 @@ p{
 	display: block;
     margin: 0px auto;
 	text-align: center;
-	margin-top: 210px;
+	margin-top: 10px;
 	font-family: 'Roboto Condensed';
 	font-style: normal;
 	font-weight: normal;
@@ -81,7 +81,7 @@ p{
 }
 
 button{
-	  font-family: Pacifico;
+	font-family: Pacifico;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 12px;
