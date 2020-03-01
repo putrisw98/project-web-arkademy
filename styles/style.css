@@ -1,9 +1,8 @@
 body{
 	background-attachment: fixed;
-    background-size: cover;
+    	background-size: cover;
 	background-repeat: no-repeat;
 }
-
 #bg{
 	position: absolute;
 	width: 100%;
@@ -11,14 +10,13 @@ body{
 	left: 0px;
 	top: 0px;
 	background-attachment: fixed;
-    background-size: cover;
+    	background-size: cover;
 	background: rgba(42, 38, 61, 0.82);
 }
-
 #logo{
 	display: block;
-    margin: 0px auto;
-    text-align: center;
+    	margin: 0px auto;
+    	text-align: center;
 	margin-top: 44px;
 	margin-bottom: 30px;
 }
@@ -55,7 +53,6 @@ h2.text{
 	left: 295px;
 	top: 275px;
 }
-
 h2 {
 	font-family: 'SF Pro Display';
 	font-style: normal;
@@ -65,10 +62,9 @@ h2 {
 	text-align: center;
 	color: #FFFFFF;
 }
-
 p{
 	display: block;
-    margin: 0px auto;
+   	margin: 0px auto;
 	text-align: center;
 	margin-top: 10px;
 	font-family: 'Roboto Condensed';
@@ -79,7 +75,6 @@ p{
 	text-align: center;
 	color: #FFFFFF;
 }
-
 button{
 	font-family: Pacifico;
 	font-style: normal;
@@ -88,7 +83,6 @@ button{
 	line-height: 21px;
 	text-align: center;
 }
-
 #about-us{
 	position: absolute;
 	width: 156px;
@@ -122,7 +116,6 @@ button{
 	background: none;
 	border: none;
 }
-
 #name{
 	position: absolute;
 	width: 382px;
@@ -198,8 +191,8 @@ button{
 	height: 46px;
 	left: calc(50% - 189px/2 + 97px);
 	top: calc(50% - 46px/2 - 4px);
-    -moz-appearance: none;
-    border: none;
+    	-moz-appearance: none;
+   	border: none;
 	background: #FFFFFF url("../image/panah.jpg") no-repeat;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 8px;
